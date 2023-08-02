@@ -18,6 +18,22 @@ def main():
     except ValueError:
         print("Error: Ingresa solo números válidos.")
 
+def cuadrado_double(numero):
+    resultado = round(numero ** 2, 2)
+    return resultado
+
 
 if __name__ == "__main__":
     main()
+
+    try:
+        print("--CUADRADO DE UN NUMERO--")
+        num = float(input("Ingresa un número: "))
+
+        resultado = cuadrado_double(num)
+
+        print("El cuadrado del número es:", resultado)
+    except ValueError:
+        print("Error: Asegúrate de ingresar solo números válidos.")
+
+
