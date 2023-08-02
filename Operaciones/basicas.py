@@ -8,10 +8,13 @@ def main():
         suma = numero1 + numero2
         resta= numero1 - numero2
         multi= numero1 * numero2
+        div = numero1 / numero2
         # Mostrar el resultado
         print("La suma de {} y {} es: {}".format(numero1, numero2, suma))
         print("La resta de {} y {} es: {}".format(numero1, numero2, resta))
         print("La multiplicacion de {} y {} es: {}".format(numero1, numero2, multi))
+        print("La Division de {} y {} es: {}".format(numero1, numero2, div))
+
     except ValueError:
         print("Error: Ingresa solo números válidos.")
 
