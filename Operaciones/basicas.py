@@ -6,9 +6,10 @@ def main():
 
         # Realizar la suma
         suma = numero1 + numero2
-
+        resta= numero1 - numero2
         # Mostrar el resultado
         print("La suma de {} y {} es: {}".format(numero1, numero2, suma))
+        print("La resta de {} y {} es: {}".format(numero1, numero2, resta))
     except ValueError:
         print("Error: Ingresa solo números válidos.")
 
